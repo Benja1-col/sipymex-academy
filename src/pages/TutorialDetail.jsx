@@ -42,25 +42,32 @@ function TutorialDetail() {
             {tutorial.description}
           </p>
 
-          <div
-            className="bg-dark text-white rounded p-5 text-center my-4"
-          >
-            ▶ Video Tutorial Nova
+          <div className="ratio ratio-16x9 my-4">
+
+            <iframe
+              src="https://www.youtube.com/embed/ATXMJOEt6zc"
+              title="Video Tutorial"
+              allowFullScreen
+            ></iframe>
+
           </div>
 
           <div className="row">
 
             <div className="col-md-6">
+
               <h4>Información</h4>
 
               <ul>
-                <li>Duración: {tutorial.duration}</li>
+                <li>Duración: 5 minutos</li>
                 <li>Nivel: Básico</li>
-                <li>Modalidad: Interactiva</li>
+                <li>Modalidad: Video Tutorial</li>
               </ul>
+
             </div>
 
             <div className="col-md-6">
+
               <h4>Objetivos</h4>
 
               <ul>
@@ -68,6 +75,7 @@ function TutorialDetail() {
                 <li>Aplicarlo en Nova.</li>
                 <li>Realizar la tarea correctamente.</li>
               </ul>
+
             </div>
 
           </div>

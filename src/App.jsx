@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Tutorials from "./pages/Tutorials";
@@ -10,6 +11,7 @@ import TutorialDetail from "./pages/TutorialDetail";
 function App() {
   return (
     <BrowserRouter>
+
       <Navbar />
 
       <Routes>
@@ -24,6 +26,9 @@ function App() {
           element={<TutorialDetail />}
         />
       </Routes>
+
+      <Footer />
+
     </BrowserRouter>
   );
 }
