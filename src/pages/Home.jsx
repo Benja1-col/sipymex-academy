@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import acercade from "../assets/acercade.png";
+import beneficios from "../assets/beneficios.png";
+import planespermiten from "../assets/planespermiten.png";
 
 function Home() {
   return (
@@ -23,7 +25,7 @@ function Home() {
               color: "white",
             }}
           >
-            Sipymex Academy
+            Sipymex Nova Academy
           </h1>
 
           <p
@@ -140,6 +142,16 @@ function Home() {
           <div className="row justify-content-center mt-4">
             <div className="col-12">
               <img src={acercade} alt="categorias" className="img-fluid rounded shadow category-image" />
+            </div>
+          </div>
+          <div className="row justify-content-center mt-4">
+            <div className="col-12">
+              <img src={beneficios} alt="categorias" className="img-fluid rounded shadow category-image" />
+            </div>
+          </div>
+                    <div className="row justify-content-center mt-4">
+            <div className="col-12">
+              <img src={planespermiten} alt="categorias" className="img-fluid rounded shadow category-image" />
             </div>
           </div>
         </div>

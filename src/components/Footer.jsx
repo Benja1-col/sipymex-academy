@@ -12,8 +12,7 @@ function Footer() {
             <h4>Sipymex Academy</h4>
 
             <p>
-              Plataforma de aprendizaje para usuarios
-              del sistema Nova.
+              Información de contacto
             </p>
 
             <p>
@@ -42,9 +41,6 @@ function Footer() {
               Reportar problema
             </p>
 
-            <p style={{ cursor: "pointer" }}>
-              Contacto
-            </p>
 
             <p style={{ cursor: "pointer" }}>
               Centro de ayuda
@@ -57,7 +53,7 @@ function Footer() {
         <hr />
 
         <div className="text-center">
-          © 2026 Sipymex Academy - Todos los derechos reservados
+          Sipymex Nova Academy © 2026. - Todos los derechos reservados
         </div>
 
       </div>
