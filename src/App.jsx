@@ -8,6 +8,9 @@ import Tutorials from "./pages/Tutorials";
 import Progress from "./pages/Progress";
 import TutorialDetail from "./pages/TutorialDetail";
 import Faqs from "./pages/Faqs";
+import Feedback from "./pages/Feedback";
+import ReportProblem from "./pages/ReportProblem";
+import HelpCenter from "./pages/HelpCenter";
 
 function App() {
   return (
@@ -28,6 +31,9 @@ function App() {
           path="/tutorial/:id"
           element={<TutorialDetail />}
         />
+        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/report" element={<ReportProblem />} />
+        <Route path="/help" element={<HelpCenter />} />
       </Routes>
 
       <Footer />
