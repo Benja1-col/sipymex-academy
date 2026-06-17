@@ -11,12 +11,31 @@ function Home() {
       <section
         className="text-white py-5"
         style={{
-          background:
-            "linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%)",
+          position: "relative",
           minHeight: "420px",
+          overflow: "hidden",
         }}
       >
-        <div className="container text-center">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            zIndex: 0,
+            pointerEvents: "none",
+          }}
+        >
+          <source src="/oceanloop.mp4" type="video/mp4" />
+        </video>
+
+        <div className="container text-center" style={{ position: "relative", zIndex: 2 }}>
 
           <h1
             className="fw-bold mb-4"
