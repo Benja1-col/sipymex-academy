@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import acercade from "../assets/acercade.png";
 
 function Home() {
   return (
     <div>
 
-      {/* HERO */}
+      
       <section
         className="text-white py-5"
         style={{
@@ -44,7 +45,7 @@ function Home() {
         </div>
       </section>
 
-      {/* ESTADÍSTICAS */}
+      
       <div className="container">
 
         <div className="row text-center mt-n5">
@@ -78,14 +79,12 @@ function Home() {
 
         </div>
 
-        {/* CATEGORÍAS */}
+        
 
         <div className="mt-5">
 
           <h2 className="text-center mb-5">
-            Categorías de aprendizaje
-          </h2>
-
+            Categorías de aprendizaje</h2>
           <div className="row">
 
             <div className="col-md-3 mb-4">
@@ -138,6 +137,11 @@ function Home() {
 
           </div>
 
+          <div className="row justify-content-center mt-4">
+            <div className="col-12">
+              <img src={acercade} alt="categorias" className="img-fluid rounded shadow category-image" />
+            </div>
+          </div>
         </div>
 
       </div>
